@@ -1,8 +1,3 @@
-# saved model same folder
-import joblib
-model_path= "C:\\Users\\Sumit\\Desktop\\CVR College\\Anomaly_detection\\isolation_forest_model.pkl"
-joblib.dump(model, model_path)
- 
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -182,5 +177,3 @@ with tab3:
     - **Prediction = -1**: Data point is an ANOMALY
     - **Anomaly Score**: Lower scores indicate more anomalous behavior
     """)
- 
- 
